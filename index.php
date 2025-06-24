@@ -48,6 +48,7 @@ include 'funciones.php'; ?>
             <option value="oro">Oro</option>
             <option value="plata">Plata</option>
             <option value="bronce">Bronce</option>
+            <option value="participante">Participante</option>
         </select>
         Año:
         <select name="year">
@@ -161,7 +162,7 @@ include 'funciones.php'; ?>
             <?php endwhile; ?>
         </table>
     <?php else: ?>
-        <p>No se encontraron resultados</p>
+        <p>No se han encontrado resultados</p>
     <?php endif; ?>
     <script src="js/script.js"></script>
 </body>
